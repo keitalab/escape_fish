@@ -9,7 +9,7 @@
  
  // データをcsv形式にし、ダウンロード
  function download_data() {
-     let loghead = "id,score,fish_num,accel_num,survive_time\n";
+     let loghead = "id,score,survive_time,fish_num,accel_num\n";
      let logdata = "";
      datas.map(function (d) {
          logdata += d.id + "," + d.score + "," + d.survive_time + "," + d.fish_num + "," + d.accel_num + "\n";
